@@ -1,26 +1,103 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- inicio de header -->
+    <div class="container">
+      <div class="sticky">
+        <nav
+          class="display-flex justify-content-space-between align-items-center"
+        >
+          <a href="#" class="logo">Personala</a>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="Francisco Zapata">
-    <meta name="robots" content="index, follow">
-    <meta name="googlebot" content="index, follow">
-    <link rel="preload" href="./css/normalize.css" as="style">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="preload" href="./css/styles.css" as="style">
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>Título de la página</title>
-</head>
+          <ul class="display-flex" id="main-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+          </ul>
 
-<body>
+          <button class="open-menu" id="responsive-menu-btn">Menu</button>
+        </nav>
+      </div>
+    </div>
 
+    <!-- Fin de header -->
 
+    <div
+      class="display-flex align-items-center justify-content-center slider text-center"
+    >
+      <div>
+        <h2>
+          I Love To Develop
+        </h2>
+        <h1><span>I Am</span> a Developer</h1>
+      </div>
+    </div>
+    <!-- About me -->
+    <section id="images">
+      <div class="container container-sticky">
+        <div class="row">
+          <div class="column-4 column-lg-6 column-md-12">
+            <img
+              src="https://www.innovationplans.com/idesign/personala/img/hero.jpg"
+              alt="Erik Perez"
+            />
+          </div>
+          <div class="column-8 column-lg-6 column-md-12">
+            <h2 class="title">I Am UI / UX Designer</h2>
+            <p>
+              I am Alex Smith fusce quis volutpat porta, ut tincidunt eros est
+              nec diam erat quis volutpat porta, neque massa, ut tincidunt eros
+              est nec diam Fusce Fusce quis volutpat porta, ut tincidunt eros
+              est nec diam erat quis volutpat porta, neque massa, ut tincidunt
+              eros est nec diam Fusce Fusce quis volutpat porta, ut tincidunt
+              eros est nec diam erat quis volutpat porta, neque massa, ut
+              tincidunt eros est nec diam
+            </p>
+            <p>
+              We’re full service which means we’ve got you covered on design and
+              content right through to digital. You’ll form a lasting
+              relationship with us, collaboration is central to everything we
+              do. We’ll push you out of your comfort zone from time-to-ti
+            </p>
 
-    <script src=""></script>
-</body>
+            <a href="#" id="link-pruebas">Saber más</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="column-4">
+            <div class="relative portfolio-item">
+              <div class="overlay absolute"></div>
+              <img
+                src="https://www.innovationplans.com/idesign/personala/img/portfolio/1.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <script src="assets/js/scroll.js"></script>
+    <script src="assets/js/main-menu.js"></script>
+  </body>
 </html>
